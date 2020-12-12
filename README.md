@@ -1,1 +1,1 @@
-# torres-digital-official-child-theme
+# Torres Digital: Oficial Child Theme
