@@ -117,9 +117,12 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 .woocommerce .quantity .qty {text-align: center;height: 37px;width: 100%;border-radius: 2px;}
 
 /* bdi e del  prices */
-.woocommerce div.product p.price, .woocommerce div.product span.price, .sudo-su .price {color: #ff3815;font-size: 23px;font-weight: 600;font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;}
+.woocommerce div.product p.price,
+.woocommerce div.product span.price,
+.archive.post-type-archive .woocommerce-Price-amount.amount {color: #ff3815;font-size: 23px;font-weight: 600;font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;}
 
-.woocommerce div.product p.price bdi .woocommerce-Price-currencySymbol , .woocommerce div.product span.price bdi .woocommerce-Price-currencySymbol  {
+.woocommerce div.product p.price bdi .woocommerce-Price-currencySymbol,
+.woocommerce div.product span.price bdi .woocommerce-Price-currencySymbol  {
     font-size: 12px;
 }
 
