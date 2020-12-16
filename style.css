@@ -127,6 +127,7 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 }
 
 .woocommerce ul.products li.product .price {color: #ff3815;}
+.price del {font-size: 20px;}
 
 
 /* (( Checkout )) */
