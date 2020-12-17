@@ -36,10 +36,14 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 
 .home .entry-title {display: none;}
 
+.site-content {
+    margin-top: 20px;
+}
+
 
 /*Head*/
 
-.tg-site-header .tg-header-top {background: #fff;}
+.tg-site-header .tg-header-top {background: #fff;} 
 .tg-site-header .tg-header-top ul li a {color: #2b2b2b; font-weight: 600}
 #cenote-sticky-header {background: #fff;box-shadow: 0px 10px 35px 10px rgba(0, 0, 0, 0.31);}
 .tg-site-header .tg-header-bottom .header-bottom-top {padding: 0;}
@@ -94,7 +98,7 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 .entry-footer .cat-links img.emoji {position: relative;display: inline-block;top: 4px;}
 
 /*Busca Personalizada*/
-.cenote-search-form__description {text-align: center;}
+.cenote-search-form__description {text-align: center;} 
 .search-form .search-field {width: 50%;margin: 0 auto;position: initial;font-weight: 600;}
 #secondary .search-field {width: 100%;position: initial;}
 
@@ -119,20 +123,21 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 /* bdi e del  prices */
 .woocommerce div.product p.price,
 .woocommerce div.product span.price,
-.archive.post-type-archive .woocommerce-Price-amount.amount {color: #ff3815;font-size: 23px;font-weight: 600;font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;}
+.woocommerce ul.products li.product .price ins,
+.price del, .post-type-archive .price del {color: #ff3815;font-size: 23px;font-weight: 600;font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;}
 
 .woocommerce div.product p.price bdi .woocommerce-Price-currencySymbol,
-.woocommerce div.product span.price bdi .woocommerce-Price-currencySymbol  {
+.woocommerce div.product span.price bdi .woocommerce-Price-currencySymbol,
+.woocommerce-Price-amount.amount bdi .woocommerce-Price-currencySymbol {
     font-size: 12px;
 }
 
-.woocommerce div.product p.price ins .woocommerce-Price-currencySymbol , .woocommerce div.product span.price ins .woocommerce-Price-currencySymbol
-{
-    font-size: 22px;
-}
+.woocommerce div.product p.price ins .woocommerce-Price-currencySymbol,
+.woocommerce div.product span.price ins .woocommerce-Price-currencySymbol,
+.woocommerce ul.products li.product .price ins .woocommerce-Price-currencySymbol {  font-size: 22px; }
 
 .woocommerce ul.products li.product .price {color: #ff3815;}
-.price del {font-size: 20px;}
+.price del, .post-type-archive .price del {font-size: 20px;}
 
 
 /* (( Checkout )) */
