@@ -37,8 +37,8 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 .home .entry-title {display: none;}
 .site-content {  margin-top: 20px; }
 .index-rules h2 { font-size: 34px; }
-.sudo-su blockquote p, blockquote a {color: #A08240; font-family: 'Inconsolata', monospace;font-size: 14.5px;}
-blockquote {padding: 11px 22px;margin: 0 0 22px;font-size: 20px;border-left: 5px solid #eeeeee;background: #fff;}
+.sudo-su blockquote p, blockquote a {color: #A08240; font-family: 'Inconsolata', monospace;font-size: 12.9px; font-weight: 600; }
+blockquote {padding: 11px 40px;margin: 0 0 22px;font-size: 20px;border-left: 5px solid #eeeeee;background: #fff;}
 
 
 /*Head*/
