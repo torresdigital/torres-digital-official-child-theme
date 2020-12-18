@@ -32,16 +32,13 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 
 .breadcrumb-torres-digital {font-size: 12.5px;font-family: 'Inconsolata', monospace;font-weight: 600;color: #555;letter-spacing: 1px;margin-top: 12px;}
 
-.index-rules h2 { font-size: 34px; }
-.sudo-su blockquote p, blockquote a {color: #A08240;}
-
 /*Definindo regras do Child no tema Pai */
 
 .home .entry-title {display: none;}
-
-.site-content {
-    margin-top: 20px;
-}
+.site-content {  margin-top: 20px; }
+.index-rules h2 { font-size: 34px; }
+.sudo-su blockquote p, blockquote a {color: #A08240; font-family: 'Inconsolata', monospace;font-size: 14.5px;}
+blockquote {padding: 11px 22px;margin: 0 0 22px;font-size: 20px;border-left: 5px solid #eeeeee;background: #fff;}
 
 
 /*Head*/
