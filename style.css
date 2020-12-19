@@ -700,7 +700,7 @@ like a charm in your responsive design!
 .sudo-su .xoo-wsc-ft-btn.button { font-size: 12px; font-weight: 600 }
 .xoo-wsc-basket {border-radius: 100%;}
 .cenote-back-to-top {position: fixed;bottom: 166px;right: -45px;}
-.xoo-wsc-ft-btn.button:hover {background: #000;color: #fff;}
+.xoo-wsc-ft-btn.button:hover, .sudo-su .button:hover, .sudo-su button:hover, .sudo-su input[type="button"]:hover, .sudo-su input[type="reset"]:hover, .sudo-su input[type="submit"]:hover {background: #000;color: #fff;}
 
 @font-face {
     font-family: 'ecommerce';
