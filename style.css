@@ -143,6 +143,8 @@ blockquote::before {left: 7px;top: -6px;}
 .woocommerce ul.products li.product .price {color: #ff3815;}
 .price del, .post-type-archive .price del {font-size: 20px;}
 
+.woocommerce ul.products li.product .button:hover {background: #FF3815;color: #fff;}
+
 
 /* (( Checkout )) */
 .woocommerce-input-wrapper { font-weight: 600;}
