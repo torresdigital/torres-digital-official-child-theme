@@ -149,6 +149,24 @@ blockquote::before {left: 7px;top: -6px;}
 
 .site-info {text-align: center;}
 
+/*Contato*/
+.personnalite img { animation: shake 7.1s infinite; }
+
+.sudo-su .xoo-wsc-bki.xoo-wsc-icon-basket1, .sudo-su .xoo-wscb-icon.xoo-wsc-icon-bag2 { font-family: 'ecommerce' !important;}
+.xoo-wsc-icon-basket1::before, .xoo-wsc-icon-bag2::before {  content: "\e74b"; }
+.sudo-su .xoo-wsc-ft-btn.button { font-size: 12px; font-weight: 600 }
+.xoo-wsc-basket {border-radius: 100%;}
+.cenote-back-to-top {position: fixed;bottom: 166px;right: -45px;}
+.xoo-wsc-ft-btn.button:hover, .sudo-su .button:hover, .sudo-su button:hover, .sudo-su input[type="button"]:hover, .sudo-su input[type="reset"]:hover, .sudo-su input[type="submit"]:hover {background: #000;color: #fff;}
+
+/*Contac Form*/
+.sudo-su .wpcf7-form-control.wpcf7-submit {width: 50%;margin: 0 auto;position: relative;text-align: center;display: block;}
+.sudo-su .wpcf7-form-control.wpcf7-submit:hover {width: 100%;transition: 0.25s;transition-timing-function: ease-out;}
+.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {height: 120px;}
+.sudo-su .wpcf7 form.sent .wpcf7-response-output {border-color: #fff;background: red;text-align: center;font-weight: 600;color: #fff;}
+
+
+
 /*BootStrap*/
 
 /*==================================================
@@ -694,13 +712,6 @@ like a charm in your responsive design!
 
 }
 
-
-.sudo-su .xoo-wsc-bki.xoo-wsc-icon-basket1, .sudo-su .xoo-wscb-icon.xoo-wsc-icon-bag2 { font-family: 'ecommerce' !important;}
-.xoo-wsc-icon-basket1::before, .xoo-wsc-icon-bag2::before {  content: "\e74b"; }
-.sudo-su .xoo-wsc-ft-btn.button { font-size: 12px; font-weight: 600 }
-.xoo-wsc-basket {border-radius: 100%;}
-.cenote-back-to-top {position: fixed;bottom: 166px;right: -45px;}
-.xoo-wsc-ft-btn.button:hover, .sudo-su .button:hover, .sudo-su button:hover, .sudo-su input[type="button"]:hover, .sudo-su input[type="reset"]:hover, .sudo-su input[type="submit"]:hover {background: #000;color: #fff;}
 
 @font-face {
     font-family: 'ecommerce';
