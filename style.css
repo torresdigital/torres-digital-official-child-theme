@@ -147,12 +147,14 @@ blockquote::before {left: 7px;top: -6px;}
 
 
 /* (( Checkout )) */
+.xoo-wsc-footer {bottom: 12px;display: block;position: relative;}
 .woocommerce-input-wrapper { font-weight: 600;}
 .site-info {text-align: center;}
 .woocommerce-info {border-top-color: #FF3815;}
 .woocommerce-info::before {color: #FF3815;}
 .woocommerce-info {background: #000;color: #fff;font-family: 'Inconsolata', monospace;font-size: 12px;font-weight: 600; text-align: center; }
 .sudo-su .woocommerce-info a {color: #fff;font-family: 'Inconsolata', monospace;font-size: 12px;font-weight: 600;background: #FF3815;padding: 0;border: 1px solid #FF3815;border-radius: 30px;text-decoration: none;display: block;width: 50%;position: relative;margin: 0 auto;}
+.woocommerce-terms-and-conditions-checkbox-text {background: #ff3815;color: #fff;padding: 9px 10px 5px;font-weight: 600;display: initial;}
 
 /*Contato*/
 .personnalite img { animation: shake 7.1s infinite; }
