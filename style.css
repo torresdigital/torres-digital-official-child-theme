@@ -152,7 +152,7 @@ blockquote::before {left: 7px;top: -6px;}
 .woocommerce-info {border-top-color: #FF3815;}
 .woocommerce-info::before {color: #FF3815;}
 .woocommerce-info {background: #000;color: #fff;font-family: 'Inconsolata', monospace;font-size: 12px;font-weight: 600; text-align: center; }
-.sudo-su .woocommerce-info a {color: #fff;font-family: 'Inconsolata', monospace;font-size: 12px;font-weight: 600;background: #FF3815;padding: 5px;border: 1px solid #FF3815;border-radius: 30px;text-decoration: none;display: block;width: 50%;position: relative;margin: 0 auto;}
+.sudo-su .woocommerce-info a {color: #fff;font-family: 'Inconsolata', monospace;font-size: 12px;font-weight: 600;background: #FF3815;padding: 0;border: 1px solid #FF3815;border-radius: 30px;text-decoration: none;display: block;width: 50%;position: relative;margin: 0 auto;}
 
 /*Contato*/
 .personnalite img { animation: shake 7.1s infinite; }
