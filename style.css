@@ -148,8 +148,11 @@ blockquote::before {left: 7px;top: -6px;}
 
 /* (( Checkout )) */
 .woocommerce-input-wrapper { font-weight: 600;}
-
 .site-info {text-align: center;}
+.woocommerce-info {border-top-color: #FF3815;}
+.woocommerce-info::before {color: #FF3815;}
+.woocommerce-info a {color: #fff;font-family: 'Inconsolata', monospace;font-size: 12px;font-weight: 600;}
+.woocommerce-info {background: #000;color: #fff;font-family: 'Inconsolata', monospace;font-size: 12px;font-weight: 600;}
 
 /*Contato*/
 .personnalite img { animation: shake 7.1s infinite; }
