@@ -60,13 +60,10 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 
 
-
-add_theme_support('woocommerce');
-
-
-
-
-
+function torres_digital_add_woocommerce_support() {
+add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'torres_digital_add_woocommerce_support' );
 
 
 
@@ -95,6 +92,22 @@ function get_breadcrumb() {
     }
 }
 
+/**
+ * Generate breadcrumbs
+ * @author CodexWorld
+ * @authorURL https://www.tychesoftwares.com/how-to-customise-woocommerce-breadcrumbs/
+ */
+add_filter( 'woocommerce_breadcrumb_defaults', 'ts_woocommerce_breadcrumbs_change' );
+
+function ts_woocommerce_breadcrumbs_change() {
+    return array(
+        'delimiter' => ' &nbsp;&#187;&nbsp;&nbsp; ',
+        'wrap_before' => '<nav class="woocommerce-breadcrumb" itemprop="breadcrumb" style="margin-left:0">',
+        'wrap_after' => '</nav>',
+        'after' => '',
+        'home' => _x( ':: index ::', 'breadcrumb', 'woocommerce' ),
+    );
+}
 
 
 

@@ -30,7 +30,11 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 
 .torres-digital-background-head {height: 250px;background-image: url("/wp-content/themes/torres-digital-wordpress-official-theme-master/img/head/torres-digital-head.jpg");z-index: 0;position: relative;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: 100%;box-shadow: 0px -4px 35px -25px rgba(0, 0, 0, 0.31);}
 
-.breadcrumb-torres-digital {font-size: 12.5px;font-family: 'Inconsolata', monospace;font-weight: 600;color: #555;letter-spacing: 1px;margin: 12px auto 20px;}
+.breadcrumb-torres-digital a {color: #16181a;font-size: 12.5px; font-weight: 600}
+.woocommerce .woocommerce-breadcrumb a {color: #16181a;font-size: 12.5px;}
+.breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 12.5px;font-family: 'Inconsolata', monospace;font-weight: 600;color: #555;letter-spacing: 1px;margin: 12px auto 20px;}
+
+.facebook-imagens img {border: 1px solid #eee;border-radius: 2px;}
 
 /*Definindo regras do Child no tema Pai */
 
@@ -155,6 +159,7 @@ blockquote::before {left: 7px;top: -6px;}
 .woocommerce-info {background: #000;color: #fff;font-family: 'Inconsolata', monospace;font-size: 12px;font-weight: 600; text-align: center; }
 .sudo-su .woocommerce-info a {color: #fff;font-family: 'Inconsolata', monospace;font-size: 12px;font-weight: 600;background: #FF3815;padding: 0;border: 1px solid #FF3815;border-radius: 30px;text-decoration: none;display: block;width: 50%;position: relative;margin: 0 auto;}
 .woocommerce-terms-and-conditions-checkbox-text {background: #ff3815;color: #fff;padding: 9px 10px 5px;font-weight: 600;display: initial;}
+.woocommerce-terms-and-conditions-checkbox-text a {color: #fff;font-weight: 600;}
 
 /*Contato*/
 .personnalite img { animation: shake 7.1s infinite; }
