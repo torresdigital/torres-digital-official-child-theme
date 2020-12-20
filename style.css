@@ -23,8 +23,15 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 
 .sudo-su h1 {font-size: 34px;}
 .sudo-su h2 {font-size: 24px;}
+.sudo-su h3 {font-size: 22px;}
+/* index rules */
+.index-rules h2 { font-size: 34px; margin-bottom: 12px }
+.index-rules h3 {margin: 0}
 
-.tg-contact-info, .sudo-su h1, .sudo-su h2, .sudo-su h3, .sudo-su h4, .sudo-su h5, .sudo-su h6 {font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif; font-weight: 500; line-height: 1.1; margin-bottom: 11px; letter-spacing: 1px }
+.depois-do-titulo p {font-size: 18px;}
+
+
+.tg-contact-info, .sudo-su h1, .sudo-su h2, .sudo-su h3, .sudo-su h4, .sudo-su h5, .sudo-su h6 {font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif; font-weight: 500; line-height: 1.1; letter-spacing: 1px }
 
 .home .breadcrumb-torres-digital, .archive .page-header {display: none;}
 
@@ -40,7 +47,7 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 
 .home .entry-title {display: none;}
 .site-content {  margin-top: 20px; }
-.index-rules h2 { font-size: 34px; }
+
 .sudo-su blockquote p, blockquote a {color: #A08240; font-family: 'Inconsolata', monospace;font-size: 12.9px; font-weight: 600; }
 blockquote {padding: 0px 40px;margin: 0 0 22px;font-size: 20px;border-left: 5px solid #eeeeee;background: #fff;}
 p {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size: 15px;line-height: 1.5;font-weight: 400;color: #2d2d2d;letter-spacing: 0;}
