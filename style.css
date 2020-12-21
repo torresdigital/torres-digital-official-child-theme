@@ -316,10 +316,12 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/torre
     
     html .cenote-mobile-navigation {width: calc(100% - 139px);}
     .tg-header-action-menu {right: 12px;position: relative;}
+    .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb, 
     .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 10.5px; text-align: center;}
-    .woocommerce .woocommerce-breadcrumb a {font-size: 10.5px;}
+    .woocommerce .woocommerce-breadcrumb a, .woocommerce .woocommerce-breadcrumb a {font-size: 10.5px;}
     .archive.post-type-archive .onsale {min-width: 50%;width: 50%;height: 10%;min-height: 10%;}
     .archive.post-type-archive .onsale {line-height: 23px;font-size: 10px;}
+    .product-template-default.woocommerce span.onsale {line-height: 26px;min-width: 24%;width: 24%;height: 3%;min-height: 3%;font-size: 12px;left: 0px;}
 }
 
 
