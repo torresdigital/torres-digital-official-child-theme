@@ -21,8 +21,10 @@
 			<!-- /.cenote-reading-bar -->
 
 			<div class="cenote-sticky-main">
-				<div class="tg-container tg-flex-container tg-flex-space-between tg-flex-item-centered">
-					<nav class="main-navigation cenote-sticky-navigation tg-site-menu--default">
+                <div class="tg-container tg-flex-container tg-flex-space-between tg-flex-item-centered">
+                    <nav class="main-navigation cenote-sticky-navigation tg-site-menu--default">
+                        <!-- Torres Digital Logo Sticky -->
+                    <a id="torres-digital-logo-sticky" class="torres-digital-logo-sticky" href="/"></a>
 						<?php
 						// Only show menu if the menu style is default.
 						if ( 'tg-site-menu--default' === get_theme_mod( 'cenote_menu_style', 'tg-site-menu--default' ) ) {
@@ -39,7 +41,7 @@
 
 					<?php get_template_part( 'template-parts/header/header', 'action' ); ?>
 
-				</div>
+				</a>
 				<!-- /.tg-container -->
 			</div>
 			<!-- /.cenote-header-sticky__top -->
