@@ -25,6 +25,8 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 .sudo-su h2 {font-size: 24px;}
 .sudo-su h3 {font-size: 22px;}
 /* index rules */
+
+.index-rules p {font-size: 17px;}
 .index-rules h2 { font-size: 34px; margin-bottom: 12px }
 .index-rules h3 {margin: 0}
 
@@ -322,6 +324,7 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/torre
 
     html .cenote-mobile-navigation {width: calc(100% - 139px);}
     .tg-header-action-menu {right: 12px;position: relative;}
+    .breadcrumb-torres-digital a {font-size: 10.5px;}
     .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb, 
     .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 10.5px; text-align: center;}
     .woocommerce .woocommerce-breadcrumb a, .woocommerce .woocommerce-breadcrumb a {font-size: 10.5px;}
