@@ -303,9 +303,23 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/torre
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
     
+    .tg-container {width: calc(100% - 10px);}
+    
+    .sudo-su p { font-size: 12px;  }
+    .sudo-su blockquote p, blockquote a {font-size: 9.9px;}
+    
     .header-bottom-bottom {top: -109px;position: relative;}
-    .site-branding {width: 50%;margin-top: 9px;}
-
+    .site-branding {width: 44%;margin-top: 9px;}
+    .sudo-su h1 {font-size: 26px;}
+    .sudo-su h2 {font-size: 17px;}
+    .sudo-su h3 {font-size: 15px;text-align: center;}
+    
+    html .cenote-mobile-navigation {width: calc(100% - 139px);}
+    .tg-header-action-menu {right: 12px;position: relative;}
+    .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 10.5px; text-align: center;}
+    .woocommerce .woocommerce-breadcrumb a {font-size: 10.5px;}
+    .archive.post-type-archive .onsale {min-width: 50%;width: 50%;height: 10%;min-height: 10%;}
+    .archive.post-type-archive .onsale {line-height: 23px;font-size: 10px;}
 }
 
 
