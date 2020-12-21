@@ -43,6 +43,14 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 
 .facebook-imagens img {border: 1px solid #eee;border-radius: 2px;}
 
+.sudo-su iframe {
+    position: relative;
+    margin: 0 auto;
+    float: none;
+    display: initial;
+    width: 100%;
+}
+
 /*Definindo regras do Child no tema Pai */
 
 .home .entry-title {display: none;}
@@ -53,7 +61,13 @@ blockquote {padding: 0px 40px;margin: 0 0 22px;font-size: 20px;border-left: 5px 
 p {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size: 15px;line-height: 1.5;font-weight: 400;color: #2d2d2d;letter-spacing: 0;}
 
 blockquote::before {left: 7px;top: -6px;}
+blockquote::after { right: 8px;}
+
+/*Mobile navigation*/
 .cenote-mobile-navigation a::after { display: none; }
+.cenote-mobile-navigation { width: calc(100% - 274px);}
+.tg-mobile-menu-toggle {padding: 7px 5px 0;width: 27px;min-width: 27px;height: 27px;min-height: 27px;border: none;border-radius: 50%;-webkit-box-shadow: 0px 0px 6px 0px rgba(138, 138, 138, 0.55);-moz-box-shadow: 0px 0px 6px 0px rgba(138, 138, 138, 0.55);box-shadow: 0px 0px 6px 0px rgba(138, 138, 138, 0.55);animation: shadow-pulse 1s infinite;cursor: pointer;box-shadow: 0 0 0 rgba(204,169,44, 0.4);}
+.sudo-su #mobile-navigation a {display: list-item; margin: 15px auto;}
 
 /*footer info*/
 .tg-site-footer .tg-footer-bottom .site-info {font-family: 'Inconsolata', monospace;font-size: 12px;}
@@ -67,6 +81,9 @@ blockquote::before {left: 7px;top: -6px;}
 /*Logo*/
 
 .site-branding {width: 12.9%;}
+html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/torres-digital-wordpress-official-theme-master/img/head/torres-digital-sticky-logo.jpg");width: 175px;height: 45px;position: relative;display: inline flow-root list-item;}
+
+.main-navigation.cenote-sticky-navigation.tg-site-menu--default {width: 97%;display: flex;}
 
 /*Menu*/
 
@@ -203,6 +220,12 @@ blockquote::before {left: 7px;top: -6px;}
 
 }
 
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 640px) {    
+
+
+}
+
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
@@ -234,16 +257,54 @@ blockquote::before {left: 7px;top: -6px;}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    
+    .tg-container {width: calc(100% - 50px);}
 
-}
+    
+    .site-branding {width: 19.9%;}
+    .cenote-mobile-navigation {width: calc(100% - 544px)}
+    .cenote-sticky-main .menu-menu-primario-container { display: none;  }
+    .main-navigation.cenote-sticky-navigation.tg-site-menu--default {width: auto;}
+    #site-navigation #primary-menu a, #primary-menu a, #header-menu a {padding: 0;}
+    element {margin-left: 0;}.breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 11.5px;}
+    .woocommerce .woocommerce-breadcrumb a {font-size: 11.5px;}
+    
+    .product-template-default.woocommerce span.onsale {line-height: 32px;min-width: 15%;width: 15%;height: 3%;min-height: 3%;}
+    .archive.post-type-archive .onsale {line-height: 27px;font-size: 12px;}
+    
+    .depois-do-titulo p {font-size: 15px;line-height: 18px;margin-top: 12px;}
+
+    }
+
+
 
 /* Extra Small Devices, Phones */
+@media only screen and (max-width : 640px) {
+    
+    html .cenote-mobile-navigation {width: calc(100% - 425px);}
+
+}
+/* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    
+    html .cenote-mobile-navigation {width: calc(100% - 312px);}
+
+    .site-branding {width: 30.9%;margin-top: 9px;}
+    .header-bottom-bottom {top: -168px;position: relative;}
+    .torres-digital-background-head {top:0}
+    .tg-header-bottom {height: 167px;}
+    .torres-digital-background-head {height: 189px;position: relative; background-attachment: inherit;}
+    .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {width: 100%;}
+    .tg-site-footer .tg-footer-bottom .site-info {font-size: 9px;}
+
 
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+    
+    .header-bottom-bottom {top: -109px;position: relative;}
+    .site-branding {width: 50%;margin-top: 9px;}
 
 }
 
