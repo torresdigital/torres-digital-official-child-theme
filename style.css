@@ -17,7 +17,8 @@ Updated: 2020-12-09 03:29:10
 
 
 
-/*Padrao*/
+/*Padrao*/ 
+
 
 body *:focus { outline-offset: none;  outline: none } body { background-color: #fff; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}
 
@@ -136,7 +137,7 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/torre
 .cenote-search-form__description {text-align: center;} 
 .search-form .search-field {width: 50%;margin: 0 auto;position: initial;font-weight: 600;}
 #secondary .search-field {width: 100%;position: initial;}
-
+.cenote-search-form input[type="search"] {text-align: center;font-size: 34px;font-style: inherit;color: #000;font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif;font-weight: 600;line-height: 1.1;letter-spacing: 1px;}
 
 
 /*Woocommerce*/
@@ -889,6 +890,15 @@ like a charm in your responsive design!
     font-style: normal;
 }
 
+
+/*   
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+font-family: 'Inconsolata', monospace;
+
+font-family: 'Nunito', sans-serif; */
 
 /*
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Nunito:300,400,600,700,800,900|Open+Sans:300,400,600,700,800&display=swap');
