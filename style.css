@@ -175,6 +175,9 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/torre
 
 .woocommerce ul.products li.product .button:hover {background: #FF3815;color: #fff;}
 
+/*cupon carrnho*/
+.woocommerce table.cart td.actions .input-text, .woocommerce-page #content table.cart td.actions .input-text, .woocommerce-page table.cart td.actions .input-text {width: 55%;border-radius: 3px;}
+
 
 /* (( Checkout )) */
 .xoo-wsc-footer {bottom: 12px;display: block;position: relative;}
