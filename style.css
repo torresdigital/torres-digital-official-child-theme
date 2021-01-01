@@ -17,14 +17,15 @@ Updated: 2020-12-09 03:29:10
 
 
 
-/*Padrao*/
+/*Padrao*/ 
 
-body *:focus { outline-offset: none;  outline: none } body { background-color: #fff; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}
 
 .sudo-su h1 {font-size: 34px;}
 .sudo-su h2 {font-size: 24px;}
 .sudo-su h3 {font-size: 22px;}
 /* index rules */
+
+.index-rules p {font-size: 17px;}
 .index-rules h2 { font-size: 34px; margin-bottom: 12px }
 .index-rules h3 {margin: 0}
 
@@ -57,7 +58,7 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 .site-content {  margin-top: 20px; }
 
 .sudo-su blockquote p, blockquote a {color: #A08240; font-family: 'Inconsolata', monospace;font-size: 12.9px; font-weight: 600; }
-blockquote {padding: 0px 40px;margin: 0 0 22px;font-size: 20px;border-left: 5px solid #eeeeee;background: #fff;}
+blockquote {padding: 0px 40px;margin: 0 0 22px;font-size: 20px;background: #fff;}
 p {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size: 15px;line-height: 1.5;font-weight: 400;color: #2d2d2d;letter-spacing: 0;}
 
 blockquote::before {left: 7px;top: -6px;}
@@ -70,7 +71,7 @@ blockquote::after { right: 8px;}
 .sudo-su #mobile-navigation a {display: list-item; margin: 15px auto;}
 
 /*footer info*/
-.tg-site-footer .tg-footer-bottom .site-info {font-family: 'Inconsolata', monospace;font-size: 12px;}
+.tg-site-footer .tg-footer-bottom .site-info {font-family: 'Inconsolata', monospace;font-size: 11px;}
 /*Head*/
 
 .tg-site-header .tg-header-top {background: #fff;} 
@@ -134,7 +135,7 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/torre
 .cenote-search-form__description {text-align: center;} 
 .search-form .search-field {width: 50%;margin: 0 auto;position: initial;font-weight: 600;}
 #secondary .search-field {width: 100%;position: initial;}
-
+.cenote-search-form input[type="search"] {text-align: center;font-size: 34px;font-style: inherit;color: #000;font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif;font-weight: 600;line-height: 1.1;letter-spacing: 1px;}
 
 
 /*Woocommerce*/
@@ -322,6 +323,7 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/torre
 
     html .cenote-mobile-navigation {width: calc(100% - 139px);}
     .tg-header-action-menu {right: 12px;position: relative;}
+    .breadcrumb-torres-digital a {font-size: 10.5px;}
     .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb, 
     .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {font-size: 10.5px; text-align: center;}
     .woocommerce .woocommerce-breadcrumb a, .woocommerce .woocommerce-breadcrumb a {font-size: 10.5px;}
@@ -889,6 +891,15 @@ like a charm in your responsive design!
 
 /*
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Nunito:300,400,600,700,800,900|Open+Sans:300,400,600,700,800&display=swap');
+/*   
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+font-family: 'Inconsolata', monospace;
+
+font-family: 'Nunito', sans-serif; 
+
 
 font-family: 'Inconsolata', monospace;
 font-family: 'Nunito', sans-serif;
