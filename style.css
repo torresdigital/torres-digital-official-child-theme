@@ -20,8 +20,6 @@ Updated: 2020-12-09 03:29:10
 /*Padrao*/ 
 
 
-body *:focus { outline-offset: none;  outline: none } body { background-color: #fff; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}
-
 .sudo-su h1 {font-size: 34px;}
 .sudo-su h2 {font-size: 24px;}
 .sudo-su h3 {font-size: 22px;}
@@ -60,7 +58,7 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 .site-content {  margin-top: 20px; }
 
 .sudo-su blockquote p, blockquote a {color: #A08240; font-family: 'Inconsolata', monospace;font-size: 12.9px; font-weight: 600; }
-blockquote {padding: 0px 40px;margin: 0 0 22px;font-size: 20px;border-left: 5px solid #eeeeee;background: #fff;}
+blockquote {padding: 0px 40px;margin: 0 0 22px;font-size: 20px;background: #fff;}
 p {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size: 15px;line-height: 1.5;font-weight: 400;color: #2d2d2d;letter-spacing: 0;}
 
 blockquote::before {left: 7px;top: -6px;}
@@ -73,7 +71,7 @@ blockquote::after { right: 8px;}
 .sudo-su #mobile-navigation a {display: list-item; margin: 15px auto;}
 
 /*footer info*/
-.tg-site-footer .tg-footer-bottom .site-info {font-family: 'Inconsolata', monospace;font-size: 12px;}
+.tg-site-footer .tg-footer-bottom .site-info {font-family: 'Inconsolata', monospace;font-size: 11px;}
 /*Head*/
 
 .tg-site-header .tg-header-top {background: #fff;} 
@@ -891,6 +889,8 @@ like a charm in your responsive design!
 }
 
 
+/*
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Nunito:300,400,600,700,800,900|Open+Sans:300,400,600,700,800&display=swap');
 /*   
 
 
@@ -898,10 +898,8 @@ like a charm in your responsive design!
 
 font-family: 'Inconsolata', monospace;
 
-font-family: 'Nunito', sans-serif; */
+font-family: 'Nunito', sans-serif; 
 
-/*
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Nunito:300,400,600,700,800,900|Open+Sans:300,400,600,700,800&display=swap');
 
 font-family: 'Inconsolata', monospace;
 font-family: 'Nunito', sans-serif;
