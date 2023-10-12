@@ -18,7 +18,38 @@ Updated: 2020-12-09 03:29:10
 
 
 /*Padrao*/ 
+.sudo-su code { background-color: #000; color: #fff; font-weight: 600; padding: 5px;
+  margin-bottom: 41px; position: relative; display: block; font-size: 14px; padding: 12px;
+  border-radius: 13px; }
 
+.sudo-su #terminal {
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  padding: 5px;
+  margin-bottom: 41px;
+  position: relative;
+  display: block;
+  font-size: 14px;
+  padding: 12px;
+  border-radius: 13px;
+}
+html .fa-phone::before {
+  content: "\f232";
+  font-size: 26px;
+  transition: background 0.2s ease-in-out 0s;
+  animation: shadow-pulse 1s infinite;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(38, 100, 32, 0.4);
+  border-radius: 30px;
+  background: #96ff4f;
+  height: 21px;
+  line-height: 22px;
+}
+
+.sudo-su pre {
+    background-color: #0e052c; color: #fff; font-size: 13px; padding: 12px;  border-radius: 4px; 
+			}
 
 .sudo-su h1 {font-size: 34px;}
 .sudo-su h2 {font-size: 24px;}
@@ -59,7 +90,20 @@ Updated: 2020-12-09 03:29:10
 
 .sudo-su blockquote p, blockquote a {color: #A08240; font-family: 'Inconsolata', monospace;font-size: 12.9px; font-weight: 600; }
 blockquote {padding: 0px 40px;margin: 0 0 22px;font-size: 20px;background: #fff;}
-p {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size: 15px;line-height: 1.5;font-weight: 400;color: #2d2d2d;letter-spacing: 0;}
+
+p, a {
+  
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 15px;line-height: 1.5;font-weight: 400;color: #2d2d2d;letter-spacing: 0;}
+
+html .entry-content a {
+  color: #333;
+  text-decoration: underline;
+  font-weight: 600;
+  margin: 7px auto;
+  position: relative;
+  display: inline-block;
+}
 
 blockquote::before {left: 7px;top: -6px;}
 blockquote::after { right: 8px;}
@@ -112,7 +156,7 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/torre
 .sudo-su .entry-header {border-bottom: 2px solid #eeeeee;}
 .trail-item.trail-end {position: relative;top: 2.1%;}
 .page-template-default .entry-header .entry-title {letter-spacing: 7px;font-weight: 500;text-transform: capitalize;font-size: 34px;}
-.entry-content .first-child .cenote-drop-cap {font-size: 61px;color: inherit;font-weight: 700;float: left;vertical-align: top;line-height: 38%;padding-right: 0px;padding-left: 0;padding-top: 13px;text-shadow: none;display: flow-root list-item;}
+.entry-content .first-child .cenote-drop-cap {font-size: 61px;color: inherit;font-weight: 700;float: left;vertical-align: top;line-height: 38%;padding-right: 0px;padding-left: 0;padding-top: 13px;text-shadow: none;display: initial;}
 
 .sudo-su .button, .sudo-su button, .sudo-su input[type="button"], .sudo-su input[type="reset"], .sudo-su input[type="submit"] {border: 1px solid #333;background-color: transparent;color: #333;padding: 10px 5px;text-transform: lowercase;}
 
@@ -136,6 +180,14 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/torre
 .search-form .search-field {width: 50%;margin: 0 auto;position: initial;font-weight: 600;}
 #secondary .search-field {width: 100%;position: initial;}
 .cenote-search-form input[type="search"] {text-align: center;font-size: 34px;font-style: inherit;color: #000;font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif;font-weight: 600;line-height: 1.1;letter-spacing: 1px;}
+
+.layout--right-sidebar #primary {
+    padding-right: 0;
+}
+
+.layout--right-sidebar #secondary {
+    padding-left: 30px;
+}
 
 
 /* ((Woocommerce)) */
@@ -255,7 +307,16 @@ html .torres-digital-logo-sticky {background-image:url("/wp-content/themes/torre
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+
+    html .tg-container {max-width: 1200px;}
+
+}
+
+/* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+
+    html .tg-container { max-width: 94%; }
 
 }
 
@@ -902,9 +963,8 @@ like a charm in your responsive design!
 
 
 /*
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Nunito:300,400,600,700,800,900|Open+Sans:300,400,600,700,800&display=swap');
-/*   
 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Nunito:300,400,600,700,800,900|Open+Sans:300,400,600,700,800&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
@@ -917,11 +977,13 @@ font-family: 'Inconsolata', monospace;
 font-family: 'Nunito', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-size: 16px;font-family: 'Inconsolata', monospace;font-weight: 400;color: #555;line-height: 140%;letter-spacing: 1px;
-*/
 
-/* 1.0 Normalize Styles based on Normalize v5.0.0 @link https: //github.com/necolas/normalize.css
+
+ 1.0 Normalize Styles based on Normalize v5.0.0 @link https: //github.com/necolas/normalize.css
 @import url('https://www.fontify.me/wf/d1e0123011c04b12846e626981f6fdd4');
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 -moz-osx-font-smoothing: grayscale; linear-gradient(to right, #58c7ec, #51ff6c)
-/*20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png
+20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png
+
+*/
