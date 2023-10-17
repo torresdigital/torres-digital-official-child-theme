@@ -102,6 +102,25 @@ html .fa-phone::before {
     letter-spacing: 1px
 }
 
+.cenote-header-sticky.cenote-header-sticky--single
+.cenote-reading-bar .cenote-reading-bar__title {
+  font-size: 21px;
+  font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  transition: background 0.2s ease-in-out 0s;
+  animation: shadow-pulse 1s infinite;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(38, 100, 32, 0.4);
+  border-radius: 30px;
+  background: #96ff4f;
+  padding: 3px 18px;
+  display: inline-block;
+  top: -3px;
+  position: relative;
+}
+
 .home .breadcrumb-torres-digital, .archive .page-header {
     display: none;
 }
@@ -183,6 +202,11 @@ p, ul > li {
     font-weight: 400;
     color: #2d2d2d;
     letter-spacing: 0;
+}
+
+b, strong {
+  font-weight: 700;
+  font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif;
 }
 
 html .post-template-default.single.single-post .entry-content p, html ul > li {
