@@ -44,6 +44,10 @@ Updated: 2020-12-09 03:29:10
     border-radius: 13px;
 }
 
+/* focus outline */
+a:focus, .custom-logo-link:focus-visible, .custom-logo-link:focus, 
+.tg-site-header:focus .tg-header-top:focus ul li a {  outline: none; }
+
 html .fa-phone::before {
     content: "\f232";
     font-size: 26px;
