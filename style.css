@@ -8,12 +8,8 @@ Author URI: https://www.facebook.com/torresdigital/
 Description: Somos uma Agência Gaúcha que trabalha com Desenvolvimento Web voltado para todos os Nichos do Mercado tais como os de insumos, commodities, pequenos, médios e grandes Lojistas que desejam alcançar mais Clientes através do e-Commerce: Sites, Aplicativos, Lojas Virtuais, Marketplaces, WordPress e Woocommerce, integrados com os Principais Cartões e Soluções de Pagamentos do Brasil e do Mundo; tais como Cielo, CyberSource, PagSeguro, Stripe, Vindi, MasterCard, Visa, American Express, outros.
 
 Tags: torres digital
-Version: 20.10.2023.1607495350
-Updated: 20.10.2023 23:55:10
-
-#Version: 09.12.2020.1607495350
-#Updated: 2020-12-09 03:29:10
-
+Version: 09.12.2020.1607495350
+Updated: 01.10.2023 18:04:05
 
 */
 
@@ -112,7 +108,7 @@ html .fa-phone::before {
 
 .cenote-header-sticky.cenote-header-sticky--single
 .cenote-reading-bar .cenote-reading-bar__title {
-  font-size: 21px;
+  font-size: 18px;
   font-family: 'Futura PT', 'Nunito', 'Open Sans', 'Helvetica', sans-serif;
   font-weight: 900;
   line-height: 1.1;
@@ -191,7 +187,7 @@ html .fa-phone::before {
 .sudo-su blockquote p, blockquote a {
     color: #A08240;
     font-family: 'Inconsolata', monospace;
-    font-size: 13.9px;
+    font-size: 12.9px;
     font-weight: 600;
 }
 
@@ -219,8 +215,21 @@ b, strong {
 
 html .post-template-default.single.single-post .entry-content p, html ul > li {
   
-  font-size: 18px; 
+  font-size: 17px; 
   line-height: 1.5; 
+}
+
+.post-template-default.single.single-post .entry-content .tg-contact-info, 
+.post-template-default.single.single-post  h1, 
+.post-template-default.single.single-post  h2, 
+.post-template-default.single.single-post  h3, 
+.post-template-default.single.single-post  h4, 
+.post-template-default.single.single-post  h5, 
+.post-template-default.single.single-post  h6 {
+
+
+    margin 5px auto;
+  
 }
 
 
