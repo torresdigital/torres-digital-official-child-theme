@@ -10,11 +10,9 @@ Description: Somos uma Agência Gaúcha que trabalha com Desenvolvimento Web vol
 Tags: torres digital
 Version: 09.12.2020.1607495350
 Updated: 01.10.2023 18:04:05
-
 */
 
 /* ********************* All Begin ********************* */
-
 
 
 /*Padrao*/ 
@@ -219,6 +217,10 @@ html .post-template-default.single.single-post .entry-content p, html ul > li {
   line-height: 1.5; 
 }
 
+html .post-template-default.single.single-post .entry-content ul > li {
+  margin: 12px auto;
+}
+
 .post-template-default.single.single-post .entry-content .tg-contact-info, 
 .post-template-default.single.single-post  h1, 
 .post-template-default.single.single-post  h2, 
@@ -227,8 +229,18 @@ html .post-template-default.single.single-post .entry-content p, html ul > li {
 .post-template-default.single.single-post  h5, 
 .post-template-default.single.single-post  h6 {
 
-
     margin 5px auto;
+  
+}
+
+.post-template-default.single.single-post .entry-content .tg-contact-info, 
+.post-template-default.single.single-post  h2, 
+.post-template-default.single.single-post  h3, 
+.post-template-default.single.single-post  h4, 
+.post-template-default.single.single-post  h5, 
+.post-template-default.single.single-post  h6 {
+
+	font-size: 24px;
   
 }
 
