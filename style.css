@@ -9,7 +9,7 @@ Description: Somos uma Agência Gaúcha que trabalha com Desenvolvimento Web vol
 
 Tags: torres digital
 Version: 09.12.2020.1607495350
-Updated: 01.10.2023 18:04:05
+Updated: 05.11.2023 18:04:05
 */
 
 /* ********************* All Begin ********************* */
@@ -215,6 +215,7 @@ html .post-template-default.single.single-post .entry-content p, html ul > li {
   
   font-size: 17px; 
   line-height: 1.5; 
+  margin-top: 20px;
 }
 
 html .post-template-default.single.single-post .entry-content ul > li {
@@ -890,6 +891,10 @@ html .torres-digital-logo-sticky {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 640px) {
+  
+    .cenote-mobile-navigation.cenote-mobile-navigation--opened {
+    box-shadow: 0px 10px 27px 12px rgba(0, 0, 0, 0.61);
+  }
 
     html .cenote-mobile-navigation {
         width: calc(100% - 425px);
@@ -960,6 +965,37 @@ html .torres-digital-logo-sticky {
   
   
   
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width : 375px) { 
+  
+  .xoo-wsc-cart-active .xoo-wsc-basket {
+    right: 267px;
+	}
+  
+    .site-branding {
+      width: 45%;
+      top: 3px;
+      position: relative;
+      margin-top: 0;
+  }
+    html .cenote-mobile-navigation {
+      width: calc(100% - 211px);
+  }
+  
+  html .post-template-default.single.single-post .entry-content p, html ul > li {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  .cenote-header-sticky.cenote-header-sticky--single {
+    max-height: 70px;
+    overflow: hidden;
+  }
+
+
 }
 
 @media only screen and (max-width : 360px) {
@@ -1112,6 +1148,9 @@ html .torres-digital-logo-sticky {
   }
    .cenote-header-sticky.cenote-header-sticky--single {
     max-height: 52px;
+  }
+    .xoo-wsc-cart-active .xoo-wsc-basket {
+    right: 224px;
   }
   
   
@@ -1614,6 +1653,13 @@ like a charm in your responsive design!
 .xoo-wsc-ft-btn.button:hover, .sudo-su .button:hover, .sudo-su button:hover, .sudo-su input[type="button"]:hover, .sudo-su input[type="reset"]:hover, .sudo-su input[type="submit"]:hover {
     background: #000;
     color: #fff;
+}
+
+.xoo-wsc-basket {
+  animation: shadow-pulse 1s infinite;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(38, 100, 32, 0.4);
+  border: 1px solid #333;
 }
 
 @font-face {
