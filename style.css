@@ -1114,6 +1114,13 @@ html .torres-digital-logo-sticky {
   position: relative;
 	}
   
+  
+  .sudo-su iframe {
+  margin: 20px auto;
+  height: auto;
+}
+  
+  
 }
 
 /* Custom, iPhone Retina */
@@ -1149,6 +1156,10 @@ html .torres-digital-logo-sticky {
   }
     .xoo-wsc-cart-active .xoo-wsc-basket {
     right: 224px;
+  }
+   .sudo-su iframe { height: auto; }
+  body:not(.layout--no-sidebar) #primary, body:not(.post-template-post-template-cover) #primary {
+    margin-bottom: 0;
   }
   
   
