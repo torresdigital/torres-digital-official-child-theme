@@ -343,6 +343,8 @@ html .torres-digital-logo-sticky {
 
 /*Menu*/
 
+#menu-item-84 a {  font-size: 15px; }
+
 #site-navigation #primary-menu a, #primary-menu a, #header-menu a {
     font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;
     font-size: 18px;
