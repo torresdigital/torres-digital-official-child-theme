@@ -827,10 +827,18 @@ html .torres-digital-logo-sticky {
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {}
+@media only screen and (max-width : 992px) {
+
+    html .kc_col-sm-6 {  width: 100%; }
+
+}
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 769px) {
+
+    #mobile-navigation .menu-menu-primario-container {
+        margin-top: 30px;
+      }
     
     .tg-container {
         width: calc(100% - 50px);
@@ -886,6 +894,11 @@ html .torres-digital-logo-sticky {
     .cenote-mobile-navigation.cenote-mobile-navigation--opened {
         box-shadow: 0px 10px 27px 12px rgba(0, 0, 0, 0.61);
         border-top: 5px solid red;
+      }
+    /*divisao dos portfolios na home */
+      html .lis .row-wide .col-6, html .lis .row-wide .col-md-6 {
+        width: -webkit-calc((100% / 12) * 6);
+        width: calc((100% / 12) * 6);
       }
 }
 
