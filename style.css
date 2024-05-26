@@ -838,7 +838,7 @@ html .torres-digital-logo-sticky {
 
     #mobile-navigation .menu-menu-primario-container {
         margin-top: 30px;
-      }
+    }
     
     .tg-container {
         width: calc(100% - 50px);
@@ -849,7 +849,7 @@ html .torres-digital-logo-sticky {
     }
 
     .cenote-mobile-navigation {
-        width: calc(100% - 544px)
+        width: calc(100% - 487px)
     }
 
     .cenote-sticky-main .menu-menu-primario-container {
@@ -885,6 +885,11 @@ html .torres-digital-logo-sticky {
         line-height: 27px;
         font-size: 12px;
     }
+
+    p {
+        margin: 0 0 26px;
+        line-height: 1.8;
+      }
 
     .depois-do-titulo p {
         font-size: 15px;
