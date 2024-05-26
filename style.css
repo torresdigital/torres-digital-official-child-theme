@@ -175,7 +175,6 @@ html .fa-phone::before {
 }
 
 /*Definindo regras do Child no tema Pai */
-
 .home .entry-title {
     display: none;
 }
@@ -337,13 +336,14 @@ html .torres-digital-logo-sticky {
 }
 
 .main-navigation.cenote-sticky-navigation.tg-site-menu--default {
-    width: 97%;
+    width: auto;
     display: flex;
 }
 
 /*Menu*/
 
-#menu-item-84 a {  font-size: 15px; }
+/*#menu-item-84 a {  font-size: 15px; }*/
+#header-menu #menu-item-84 a { font-size: 16px; }
 
 #site-navigation #primary-menu a, #primary-menu a, #header-menu a {
     font-family: 'Futura PT', 'Nunito', 'Open Sans', sans-serif;
@@ -827,8 +827,7 @@ html .torres-digital-logo-sticky {
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-}
+@media only screen and (max-width : 992px) {}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -857,9 +856,6 @@ html .torres-digital-logo-sticky {
         padding: 0;
     }
 
-    element {
-        margin-left: 0;
-    }
 
     .breadcrumb-torres-digital, .sudo-su .woocommerce-breadcrumb {
         font-size: 11.5px;
@@ -887,6 +883,10 @@ html .torres-digital-logo-sticky {
         line-height: 18px;
         margin-top: 12px;
     }
+    .cenote-mobile-navigation.cenote-mobile-navigation--opened {
+        box-shadow: 0px 10px 27px 12px rgba(0, 0, 0, 0.61);
+        border-top: 5px solid red;
+      }
 }
 
 
@@ -894,9 +894,7 @@ html .torres-digital-logo-sticky {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 640px) {
   
-    .cenote-mobile-navigation.cenote-mobile-navigation--opened {
-    box-shadow: 0px 10px 27px 12px rgba(0, 0, 0, 0.61);
-  }
+
 
     html .cenote-mobile-navigation {
         width: calc(100% - 425px);
@@ -1019,7 +1017,7 @@ html .torres-digital-logo-sticky {
     }
 
     .header-bottom-bottom {
-        top: -109px;
+        /*top: -109px;*/
         position: relative;
     }
 
