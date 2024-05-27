@@ -324,7 +324,7 @@ blockquote::after {
 /*Logo*/
 
 .site-branding {
-    width: 12.9%;
+    width: 14%;
 }
 
 html .torres-digital-logo-sticky {
@@ -982,11 +982,21 @@ html .torres-digital-logo-sticky {
   }
   
   
-  
 }
 
-/* Custom, iPhone Retina */
+@media only screen and (max-width : 415px) { 
 
+    html .cenote-mobile-navigation {
+        width: calc(100% - 126px);
+      }
+      .header-bottom-bottom {
+        top: -150px;
+      }
+
+}
+
+
+/* Custom, iPhone Retina */
 @media only screen and (max-width : 375px) { 
   
   .xoo-wsc-cart-active .xoo-wsc-basket {
