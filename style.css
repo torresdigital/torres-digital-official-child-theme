@@ -81,9 +81,10 @@ html .fa-phone::before {
 /* index rules */
 
 .index-rules p {
-  /*font-size: 17px;*/
+
   font-size: 18px;
   line-height: 22px;
+  margin: 0 0 24px;
 }
 
 .index-rules h2 {
@@ -315,6 +316,7 @@ blockquote::after {
 #cenote-sticky-header {
     background: #fff;
     box-shadow: 0px 10px 35px 10px rgba(0, 0, 0, 0.31);
+    border-top: 2.8px solid orangered;
 }
 
 .tg-site-header .tg-header-bottom .header-bottom-top {
@@ -360,14 +362,14 @@ html .torres-digital-logo-sticky {
 .tg-header-action-menu li.tg-menu-toggle--opened::after, 
 .tg-header-action-menu li.tg-mobile-menu-toggle--opened::after {
   -webkit-transform: rotate(45deg) translateX(-1px);
-  transform: rotate(48deg) translateX(-2px);
+  transform: rotate(50deg) translateX(-2px);
 }
 
 .tg-header-action-menu li.tg-menu-toggle--opened::before, 
 .tg-header-action-menu li.tg-mobile-menu-toggle--opened::before { 
   
   -webkit-transform: rotate(48deg) translateX(2px);
-  transform: rotate(48deg) translateX(2px);
+  transform: rotate(50deg) translateX(2px);
 }
 
 .tg-contact-info__email .fa.fa-envelope {
@@ -931,7 +933,7 @@ html .torres-digital-logo-sticky {
 @media only screen and (max-width : 480px) {
     
     html .cenote-mobile-navigation {
-        width: calc(100% - 312px);
+        width: calc(100% - 225px);
     }
 
     .tg-container {
