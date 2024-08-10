@@ -398,6 +398,7 @@ html .torres-digital-logo-sticky {
     box-shadow: 0 0 0 rgba(204,169,44, 0.4);
 }
 
+/*
 @keyframes shadow-pulse {
     0% {
         box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
@@ -407,6 +408,7 @@ html .torres-digital-logo-sticky {
         box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
     }
 }
+*/
 
 .tg-contact-info__email span {
     font-size: 13px;
@@ -771,7 +773,12 @@ html .torres-digital-logo-sticky {
     color: #fff;
 }
 
-
+@keyframes pulse { 
+	
+	0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);}
+	70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(0, 0, 0, 0); }
+	100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+}
 
 /*BootStrap*/
 
