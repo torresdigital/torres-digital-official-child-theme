@@ -59,7 +59,7 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 
 
-
+// woocommerce support on theme
 function torres_digital_add_woocommerce_support() {
 add_theme_support( 'woocommerce' );
 }
